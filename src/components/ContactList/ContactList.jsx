@@ -38,26 +38,3 @@ const ContactList = ({ contacts, onDeleteContact }) => {
 };
 
 export default ContactList;
-
-// import React from 'react';
-// import styles from './ContactList.module.css';
-
-// export const ContactList = ({ contacts, onDeleteContact }) => (
-//   <div className={styles.contactListWrapper}>
-//     <ul className={styles.contactList}>
-//       {contacts.map(contact => (
-//         <li className={styles.contactItem} key={contact.id}>
-//           {contact.name}: {contact.number}
-//           <button
-//             className={styles.contactBtn}
-//             onClick={() => onDeleteContact(contact.id)}
-//           >
-//             Видалити контакт
-//           </button>
-//         </li>
-//       ))}
-//     </ul>
-//   </div>
-// );
-
-// export default ContactList;
